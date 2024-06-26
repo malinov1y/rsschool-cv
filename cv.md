@@ -32,3 +32,7 @@ function positiveSum(arr) {
     return sum;
 }
 ```
+
+## Education
+
+-   **University:** Polotsk State University (Faculty of Information Technology)
