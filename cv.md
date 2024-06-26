@@ -36,3 +36,7 @@ function positiveSum(arr) {
 ## Education
 
 -   **University:** Polotsk State University (Faculty of Information Technology)
+
+## English level
+
+A2
