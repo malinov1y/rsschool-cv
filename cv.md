@@ -9,3 +9,11 @@
 ## About Me
 
 I am a second-year university student. I am interested in developing in the field of web development. I believe my strengths are persistence and the ability to learn new things independently. I believe that my desire for learning helps me achieve goals and overcome challenges.
+
+## Skills
+
+-   HTML
+-   CSS
+-   C# (basic)
+-   JavaScript (basic)
+-   Git
