@@ -72,10 +72,9 @@ h1{
     flex-wrap: wrap;
 }
 
-.contacts{
+.contacts, .skills{
     background-color: #2f2634;
     width: 35%;
-    color: #fff;
 }
 
 .contacts h2{
@@ -100,11 +99,11 @@ h1{
     margin-bottom: 20px;
 }
 
-.summary{
+.summary, .code{
     width: 65%;
 }
 
-.summary h2{
+.summary h2, .code h2{
     font-size: 2em;
     margin-left: 25px;
 }
@@ -113,11 +112,6 @@ h1{
     margin: 35px 35px 0 40px;
     font-size: 1.25em;
     line-height: 1.3em;
-}
-
-.skills{
-    width: 35%;
-    background-color: #2f2634;
 }
 
 .skills h2{
@@ -139,4 +133,12 @@ h1{
     font-family: Arial, sans-serif;
     font-size: 1.2em;
     margin-bottom: 20px;
+}
+
+.code pre{
+    margin: 20px 40px 0 40px;
+    padding-top: 15px;
+    text-align: left;
+    background-color: #dee0e2;
+    font-size: 1.25em;
 }
