@@ -72,7 +72,7 @@ h1{
     flex-wrap: wrap;
 }
 
-.contacts, .skills{
+.contacts, .skills, .english{
     background-color: #2f2634;
     width: 35%;
 }
@@ -99,11 +99,11 @@ h1{
     margin-bottom: 20px;
 }
 
-.summary, .code{
+.summary, .code, .education{
     width: 65%;
 }
 
-.summary h2, .code h2{
+.summary h2, .code h2, .education h2{
     font-size: 2em;
     margin-left: 25px;
 }
@@ -141,4 +141,25 @@ h1{
     text-align: left;
     background-color: #dee0e2;
     font-size: 1.25em;
+}
+
+.english h2{
+    font-size: 2em;
+    margin: 45px 0 15px 20px;
+    background-color: orange;
+    color: black;
+    border-radius: 15px;
+    padding: 7px 30px;
+}
+
+.english p{
+    color: white;
+    font-size: 1.25em;
+    margin: 20px 0 30px 50px;
+    font-family: Arial, sans-serif;
+}
+
+.education p{
+    font-size: 1.25em;
+    padding: 30px 0 0 40px;
 }
