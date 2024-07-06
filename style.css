@@ -1,3 +1,183 @@
-body{
-    background-color: beige;
+body {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav{
+    background-color: #1e232c;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    padding-inline: 30px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+.photo{
+    background-color: #2f2634;
+    width: 35%;
+}
+
+.photo img{
+    height: 260px;
+    border-radius: 10px;
+    display: block;
+    margin: 30px 55px;
+}
+
+.header{
+    display: flex;
+}
+
+.name{
+    width: 65%;
+    padding: 70px 50px 0px 50px;
+}
+
+hr{
+    margin-top: 70px;
+    width: 500px;
+    border: 3px solid orange;
+    border-radius: 20px;
+}
+
+h1, p, h2{
+    margin: 0;
+    display: inline-block;
+}
+
+h1{
+    font-size: 4em;
+}
+
+.name p{
+    font-size: 2.8em;
+}
+
+.allinfo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts, .skills, .english{
+    background-color: #2f2634;
+    width: 35%;
+}
+
+.contacts h2{
+    font-size: 2em;
+    margin: 60px 0 0 20px;
+    background-color: orange;
+    color: black;
+    border-radius: 15px;
+    padding: 7px 30px;
+}
+
+.contacts ul {
+    list-style: none;
+    margin: 40px 0 20px 35px;
+    padding: 0;
+}
+
+.contacts li {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.summary, .code, .education{
+    width: 65%;
+}
+
+.summary h2, .code h2, .education h2{
+    font-size: 2em;
+    margin-left: 25px;
+}
+
+.summary p{
+    margin: 35px 35px 0 40px;
+    font-size: 1.25em;
+    line-height: 1.3em;
+}
+
+.skills h2{
+    font-size: 2em;
+    margin: 45px 0 15px 20px;
+    background-color: orange;
+    color: black;
+    border-radius: 15px;
+    padding: 7px 30px;
+}
+
+.skills ul{
+    margin: 25px 0 20px 65px;
+    padding: 0;
+}
+
+.skills li {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.code pre{
+    margin: 20px 40px 0 40px;
+    padding-top: 15px;
+    text-align: left;
+    background-color: #dee0e2;
+    font-size: 1.25em;
+}
+
+.english h2{
+    font-size: 2em;
+    margin: 45px 0 15px 20px;
+    background-color: orange;
+    color: black;
+    border-radius: 15px;
+    padding: 7px 30px;
+}
+
+.english p{
+    color: white;
+    font-size: 1.25em;
+    margin: 20px 0 30px 50px;
+    font-family: Arial, sans-serif;
+}
+
+.education p{
+    font-size: 1.25em;
+    padding: 30px 0 0 40px;
+}
+
+.footer{
+    background-color: #1e232c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.footer img{
+    height: 40px;
+}
+
+.footer p{
+    font-size: 1.15em;
+    color: white;
 }
